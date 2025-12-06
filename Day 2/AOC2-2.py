@@ -21,7 +21,7 @@ def invalid(num: int) -> bool:
             return True
     return False
 
-with open('input.txt', 'r') as file:
+with open('Test.txt', 'r') as file:
     Input = file.read().strip().split(",")
 
     for k in range(0, len(Input)):
